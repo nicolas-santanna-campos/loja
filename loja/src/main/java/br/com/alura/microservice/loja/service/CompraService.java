@@ -19,7 +19,7 @@ public class CompraService {
 																						  null,
 																						  InfoFornecedorDTO.class);
 		
-		System.out.println(exchange.getBody());
+		System.out.println(exchange.getBody().getEndereco());
 	}
 
 }
